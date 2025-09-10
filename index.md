@@ -8,4 +8,4 @@ output:
 ---
 
 # Pharmacokinetics and Pharmacodynamics Notes
-- [The role of statistics and the Data Analysis Process](01.The-role-of-statistics-and-the-Data-Analysis-Process.html)
+- [W1-General Principles of Pharmacology](W1-General Principles of Pharmacology.html)
