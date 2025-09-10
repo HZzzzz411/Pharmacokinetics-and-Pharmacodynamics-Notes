@@ -43,48 +43,46 @@ PK describes the fate of a drug within the body using the LADME framework.
     *   **Area Under the Curve (AUC)**:
         *  The total **area under** the plasma drug **concentration-time curve**. Directly proportional to the total amount of drug absorbed (**extent** of absorption). AUC越大，药物被机体吸收的越完全
     *   **Rate of Absorption**: How fast the drug reaches systemic circulation. Assessed by **Cmax** (peak plasma concentration) and **Tmax** (time to reach Cmax). Relevant for extravascular routes. Cmax he Tmax 对 IV没有意义（进入体内瞬间最大）
-  ![Cmax and Tmax](picture/image1.png)
+  ![Cmax and Tmax](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image1.png)
     *   **Volume of Distribution (Vd)**:
-        *   Definition: A theoretical volume relating the total amount of drug in the body to its plasma concentration. Indicates tissue distribution vs. blood confinement.
-        *   Formula: `Vd (L/kg) = (Dose × F) / Plasma Concentration (C)`. For IV, F=1, so `Vd = Dose / C`.
-        *   Interpretation:
+        *   **Definition**: A theoretical volume **relating** the **total amount of drug** in the body to its **plasma concentration**. Indicates tissue distribution vs. staying in the blood. Calculated by: $$Vd (L/kg) = \frac{Administered dose of drug(D) × F} {Plasma Concentration (C)}$$. For IV, F=1, so $$Vd = Dose / C$$. (Unit: L/kg)
+        *   **Interpretation**: Normal adults have approximately **40L of fluids** in their body
             *   Low Vd (3-5 L): Confined to plasma (e.g., Heparin, Warfarin).
-            *   Moderate Vd (10-20 L): Distributed in extracellular fluid (e.g., Aminoglycosides).
+            *   Moderate Vd (10-20 L): Distributed in extracellular fluid 细胞外液 (e.g., Aminoglycosides).
             *   High Vd (>40 L): Extensively distributed into tissues/fat (e.g., Chloroquine, Digoxin, Antidepressants).
-    *   **Clearance (CL)**:
-        *   Definition: The volume of plasma completely cleared of drug per unit time. Measures elimination efficiency.
-        *   Formula (Renal Example): `CL = (Urine Concentration (U) × Urine Flow Rate (V)) / Plasma Concentration (C)`.
-        *   Organs: Kidneys, liver, lungs, etc.
-    *   **Half-Life (t½)**:
-        *   Definition: Time required for plasma drug concentration to decrease by 50% during elimination.
+    *   **Clearance (CL)**: 单位时间内完全清除药物的血浆体积
+        *  The volume of plasma completely cleared of drug per unit time. Measures elimination efficiency. $$CL = \frac{Drug concentration in urine(U) × Urine Flow Rate (V)}{Plasma Concentration (C)}$$.
+        *   Via Organs: Kidneys, liver, lungs, etc.
+    *   **Half-Life (t½)** 半衰期:
+        *   Time required for plasma drug concentration to **decrease by 50%** during elimination.
         *   Clinical Significance: Determines dosing frequency and time to reach steady-state concentration.
 *   **Routes of Administration**:
-    *   **Enteral** (via GI Tract):
-        *   *Oral (PO)*: Most common; convenient, but variable absorption/first-pass metabolism.
-        *   *Sublingual*: Under tongue; rapid, bypasses liver.
-        *   *Rectal (PR)*: Useful if oral not possible; partial bypass of liver.
-    *   **Parenteral** (injection, bypasses GI):
-        *   *Intravenous (IV)*: Direct into vein; immediate effect, 100% F.
-        *   *Intramuscular (IM)*: Into muscle; good for depot/vaccines.
-        *   *Subcutaneous (SC)*: Under skin; slow, sustained release (e.g., insulin).
+    *   **Enteral** (via GI Tract 消化道):
+        *   Oral (PO): Most common; convenient, but variable absorption/first-pass metabolism.
+        *   Sublingual 舌下腺: Under tongue; rapid, bypasses liver.
+        *   Rectal (PR) 直肠: Useful if oral not possible (vomiting呕吐 or unconscious昏迷); partial bypass of liver.
+    *   **Parenteral** (injection 注射, bypasses GI):
+        *   Intravenous (IV): Direct into vein; immediate effect, 100% F.
+        *   Intramuscular (IM) 肌肉注射: Into muscle; good for depot/vaccines.
+        *   Subcutaneous (SC) 皮下: Under skin; slow, sustained release (e.g., insulin).
     *   **Other Routes**:
-        *   *Inhalation*: To lungs; rapid absorption (e.g., asthma meds).
-        *   *Topical*: On skin/mucosa for local effect.
-        *   *Transdermal*: Patch for systemic effect; slow absorption (e.g., nicotine).
+        *   Inhalation 吸入: To lungs; rapid absorption (e.g., asthma meds).
+        *   Topical 外用: On skin/mucosa for local effect.
+        *   Transdermal 透皮: Patch for systemic effect; slow absorption (e.g., nicotine).
 
-## V. Pharmacodynamics (PD): "What the Drug Does to the Body"
+## V. Pharmacodynamics (PD):
 
 PD studies the biochemical and physiological effects of drugs and their mechanisms of action.
 
 *   **Drug-Receptor Interactions**:
     *   **Receptor** (受体): A specific **protein macromolecule** on or in a cell that a drug (ligand) binds to, initiating a biochemical effect.
     *   **Ligand** (配位体): A molecule (e.g., drug, hormone) that **binds to a receptor**.
-    *   **Agonist**: Binds to and activates a receptor, producing a response. Has **affinity** and **intrinsic activity/efficacy** (e.g., Salbutamol → β₂ agonist → bronchodilation).
-    *   **Antagonist**: Binds to a receptor but does NOT activate it, blocking agonists. Has **affinity** but **no efficacy** (e.g., Propranolol → β antagonist → ↓ heart rate).
+    *   **Agonist 激动剂**: Binds to and **activates a receptor**, producing a response. Has **affinity 亲和力** and **intrinsic activity/efficacy 内在活性** 
+    *   **Antagonist 拮抗剂**: Binds to a receptor but does NOT activate it, blocking agonists. Has **affinity** but **no efficacy** 
 *   **Key PD Concepts**:
-    *   **Efficacy (Intrinsic Activity)**: The *maximum* biological effect a drug can produce. Answers "how well can it work?"
-    *   **Potency**: The *amount* (dose/concentration) needed to produce a given effect. Answers "how much is needed?" Inversely related to EC₅₀/ED₅₀.
-    *   **EC₅₀ / ED₅₀**: Concentration (EC₅₀) or dose (ED₅₀) producing 50% of the maximum effect. Standard measure for potency comparison.
+    *   **Efficacy (Intrinsic Activity)**: The maximum therapeutic effect a drug can produce. 
+    *   **Potency** : The amount (dose/concentration) needed to produce a given effect. Inversely related to EC₅₀/ED₅₀.
+    *   **EC₅₀ / ED₅₀**: Concentration (EC₅₀) or dose (ED₅₀) producing 50% of the maximum effect. Standard measure for potency comparison. EC₅₀越低potency越高
     *   **Therapeutic Window**: The range of doses/concentrations between the Minimum Effective Dose/Concentration (MED/MEC) and the Minimum Toxic Dose/Concentration (MTD/MTC). Goal is to maintain levels within this window.
     *   **Therapeutic Index (TI)**:
         *   Definition: Safety margin measure. `TI = TD₅₀ / ED₅₀`.
