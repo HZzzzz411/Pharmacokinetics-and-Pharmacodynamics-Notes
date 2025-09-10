@@ -19,7 +19,6 @@ date: 2025-09-10
         *  Concentration(浓度): The level of drug measured in plasma/tissues (PK outcome)
         *  Effect: The clinical/biological response observed (PD outcome)
 *   **Drug**: The **active chemical** substance with **biological activity** (e.g., Paracetamol 醋氨酚).
-    *  Drugs come from: Natural source (Plants, animals, minerals, microorganisms); Synthetic sources; Biotechnology
 *   **Medicine (Pharmaceutical)**: The formulated product for **human use**, containing the active drug + **inactive ingredients** (excipients 赋形剂) like binders or fillers (e.g., Panadol® tablet).
 *   **Dose**: The **quantity** of a drug administered at **one time**.
 *   **Dosage Form**: The **physical form** in which a drug is administered (e.g., tablet, capsule, injection, syrup, cream, patch).
@@ -37,7 +36,7 @@ PK describes the fate of a drug within the body using the LADME framework.
 *   **Key PK Parameters**:
     *   **Bioavailability** (F 生物利用度):
         *   **Definition**: The **rate and extent** to which the **active drug reaches** systemic circulation from its dosage form.
-        *   **Measurement**: Fractional availability (F). Calculated as $$F = \frac{AUC(desired route)}{AUC(IV)}$$
+        *   **Measurement**: Fractional availability (F). Calculated as $$F = \frac{AUC(\text{desired route})}{AUC(IV)}$$
         *   **Intravenous (IV 静脉) Route:** 100% bioavailability (F=1), direct entry into bloodstream.
         *   Other Routes: F ≤ 1 (≤100%) due to **incomplete absorption** or first-pass metabolism.
     *   **Area Under the Curve (AUC)**:
@@ -45,13 +44,13 @@ PK describes the fate of a drug within the body using the LADME framework.
     *   **Rate of Absorption**: How fast the drug reaches systemic circulation. Assessed by **Cmax** (peak plasma concentration) and **Tmax** (time to reach Cmax). Relevant for extravascular routes. Cmax he Tmax 对 IV没有意义（进入体内瞬间最大）
   ![Cmax and Tmax](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image1.png)
     *   **Volume of Distribution (Vd)**:
-        *   **Definition**: A theoretical volume **relating** the **total amount of drug** in the body to its **plasma concentration**. Indicates tissue distribution vs. staying in the blood. Calculated by: $$Vd (L/kg) = \frac{Administered dose of drug(D) × F} {Plasma Concentration (C)}$$. For IV, F=1, so $$Vd = Dose / C$$. (Unit: L/kg)
+        *   **Definition**: A theoretical volume **relating** the **total amount of drug** in the body to its **plasma concentration**. Indicates tissue distribution vs. staying in the blood. Calculated by: $$Vd (L/kg) = \frac{\text{Administered dose of drug}(D) × F} {\text{Plasma Concentration} (C)}$$. For IV, F=1, so $$Vd = Dose / C$$. (Unit: L/kg)
         *   **Interpretation**: Normal adults have approximately **40L of fluids** in their body
             *   Low Vd (3-5 L): Confined to plasma (e.g., Heparin, Warfarin).
             *   Moderate Vd (10-20 L): Distributed in extracellular fluid 细胞外液 (e.g., Aminoglycosides).
             *   High Vd (>40 L): Extensively distributed into tissues/fat (e.g., Chloroquine, Digoxin, Antidepressants).
     *   **Clearance (CL)**: 单位时间内完全清除药物的血浆体积
-        *  The volume of plasma completely cleared of drug per unit time. Measures elimination efficiency. $$CL = \frac{Drug concentration in urine(U) × Urine Flow Rate (V)}{Plasma Concentration (C)}$$.
+        *  The volume of plasma completely cleared of drug per unit time. Measures elimination efficiency. $$CL = \frac{\text{Drug concentration in urine}(U) × \text{Urine Flow Rate} (V)}{\text{Plasma Concentration} (C)}$$.
         *   Via Organs: Kidneys, liver, lungs, etc.
     *   **Half-Life (t½)** 半衰期:
         *   Time required for plasma drug concentration to **decrease by 50%** during elimination.
@@ -70,42 +69,43 @@ PK describes the fate of a drug within the body using the LADME framework.
         *   Topical 外用: On skin/mucosa for local effect.
         *   Transdermal 透皮: Patch for systemic effect; slow absorption (e.g., nicotine).
 
-## V. Pharmacodynamics (PD):
+## III. Pharmacodynamics (PD):
 
 PD studies the biochemical and physiological effects of drugs and their mechanisms of action.
 
 *   **Drug-Receptor Interactions**:
     *   **Receptor** (受体): A specific **protein macromolecule** on or in a cell that a drug (ligand) binds to, initiating a biochemical effect.
     *   **Ligand** (配位体): A molecule (e.g., drug, hormone) that **binds to a receptor**.
-    *   **Agonist 激动剂**: Binds to and **activates a receptor**, producing a response. Has **affinity 亲和力** and **intrinsic activity/efficacy 内在活性** 
-    *   **Antagonist 拮抗剂**: Binds to a receptor but does NOT activate it, blocking agonists. Has **affinity** but **no efficacy** 
+    *   **Agonist** 激动剂: Binds to and **activates a receptor**, producing a response. Has **affinity** (亲和力) and **intrinsic activity/efficacy** (内在活性) 
+    *   **Antagonist**: 拮抗剂 Binds to a receptor but does NOT activate it, blocking agonists. Has **affinity** but **no efficacy** 
 *   **Key PD Concepts**:
     *   **Efficacy (Intrinsic Activity)**: The maximum therapeutic effect a drug can produce. 
-    *   **Potency** : The amount (dose/concentration) needed to produce a given effect. Inversely related to EC₅₀/ED₅₀.
+    *   **Potency** : The amount (dose/concentration) needed to produce a given effect. Inversely related to EC₅₀ or ED₅₀.
     *   **EC₅₀ / ED₅₀**: Concentration (EC₅₀) or dose (ED₅₀) producing 50% of the maximum effect. Standard measure for potency comparison. EC₅₀越低potency越高
-    *   **Therapeutic Window**: The range of doses/concentrations between the Minimum Effective Dose/Concentration (MED/MEC) and the Minimum Toxic Dose/Concentration (MTD/MTC). Goal is to maintain levels within this window.
-    *   **Therapeutic Index (TI)**:
-        *   Definition: Safety margin measure. `TI = TD₅₀ / ED₅₀`.
+![Cmax and Tmax](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image2.png)
+    *   **Therapeutic Window**: The range of **doses**/concentrations between the **Minimum Effective** Dose/Concentration (MED/MEC) and the **Minimum Toxic** Dose (or maximum 
+tolerated dose). Goal is to maintain levels within this window.
+    *   **Therapeutic Index (TI)**: 药物安全性的衡量标准
+        *   Safety margin measure. $$TI = \frac{TD_{50}}{ED_{50}}$$.
         *   TD₅₀: Dose toxic in 50% of population.
         *   ED₅₀: Dose effective in 50% of population.
         *   Narrow TI: Dangerous drugs where effective dose is close to toxic dose (e.g., Warfarin, Digoxin, Phenytoin). Requires Therapeutic Drug Monitoring (TDM).
 
-## VI. Adverse Drug Reactions (ADRs) & Related Concepts
+## IV. Adverse Drug Reactions (ADRs) & Related Concepts
 
 *   **Adverse Drug Reaction (ADR)**: Any unintended, harmful reaction to a drug at normal doses.
 *   **Classification of ADRs**:
-    *   **Type A (Augmented)**: Predictable, dose-related, pharmacological mechanism (e.g., side effects, toxic effects).
-    *   **Type B (Bizarre)**: Unpredictable, dose-independent, immune or genetic mechanism (e.g., allergic, idiosyncratic reactions).
-*   **Specific Types of ADRs**:
-    *   **Side Effect**: Predictable, secondary effect at therapeutic doses (e.g., drowsiness from antihistamines).
-    *   **Toxic Effect**: Severe reaction from overdose/accumulation (e.g., liver failure from paracetamol overdose).
-    *   **Allergic Reaction**: Unpredictable, immune-mediated (e.g., rash, anaphylaxis from penicillin).
-    *   **Idiosyncratic Reaction**: Rare, unpredictable, genetically-based abnormal reaction (e.g., hemolysis in G6PD-deficient patients on sulfonamides).
-*   **Tolerance**: Decreased response with repeated use, requiring higher doses (e.g., opioids, nitrates).
-*   **Dependence**: State where withdrawal symptoms occur upon cessation (can be physical or psychological).
-*   **Resistance**: Reduced drug effectiveness against a disease (e.g., antibiotic resistance in bacteria).
+    *   **Type A (Augmented)**: Predictable, dose-dependent, pharmacological mechanism (e.g., side effects, toxic effects).
+        *  **Side Effect**: Predictable, secondary effect at therapeutic doses (e.g., drowsiness from antihistamines). 与剂量相关
+        *  **Toxic Effect**: Severe reaction from **overdose**/accumulation (e.g., liver failure from paracetamol overdose).
+    *   **Type B (Bizarre)**: Unpredictable, dose-independent, immune or genetic mechanism 免疫或遗传机制 (e.g., allergic, idiosyncratic reactions).
+        *   **Allergic Reaction**: Unpredictable, immune-mediated 免疫介导反应 (e.g., rash, anaphylaxis from penicillin).
+        *   **Idiosyncratic Reaction**: Rare, unpredictable, genetically-based abnormal reaction (e.g., hemolysis in G6PD-deficient patients on sulfonamides).
+*   **Tolerance** 耐受性: Decreased response with repeated use, requiring higher doses (e.g., opioids, nitrates).
+*   **Dependence** : State where withdrawal symptoms(戒断症状) occur upon cessation (can be physical or psychological).
+*   **Resistance** 耐药性: Reduced drug effectiveness against a disease (e.g., antibiotic resistance in bacteria).
 
-## VII. Drug Sources & Nomenclature
+## V. Drug Sources & Nomenclature
 
 *   **Sources of Drugs**:
     *   **Natural**: Plants (Morphine, Digoxin), Animals (Insulin, Hormones), Minerals (Iron, Lithium), Microorganisms (Penicillin).
@@ -113,12 +113,5 @@ PD studies the biochemical and physiological effects of drugs and their mechanis
     *   **Biotechnology**: Genetically engineered (e.g., Human Insulin, Monoclonal Antibodies like Adalimumab).
 *   **Drug Nomenclature**:
     *   **Chemical Name**: Precise molecular structure (e.g., N-(4-hydroxyphenyl)acetamide). Rarely used clinically.
-    *   **Generic Name (Non-proprietary)**: Official, simplified name (e.g., Paracetamol/Acetaminophen). Standard for use.
+    *   **Generic Name (Non-proprietary)**: Official, simplified name (e.g., Paracetamol/Acetaminophen). Standard for use. 非专有的，各品牌药物通用
     *   **Trade/Brand Name (Proprietary)**: Company marketing name (e.g., Tylenol®, Panadol®). One generic can have many brands.
-
-## VIII. Core Relationship: Linking PK and PD
-
-*   The fundamental pharmacological relationship is: **Dose → (PK) → Concentration → (PD) → Effect**.
-*   PK determines the drug concentration at the site of action.
-*   PD determines the biological effect produced by that concentration.
-*   Integrating PK and PD is crucial for optimizing therapeutic outcomes and minimizing adverse effects.
