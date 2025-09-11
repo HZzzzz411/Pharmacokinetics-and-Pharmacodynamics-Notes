@@ -41,10 +41,12 @@ PK describes the fate of a drug within the body using the LADME framework.
         *   Other Routes: F ≤ 1 (≤100%) due to **incomplete absorption** or first-pass metabolism.
     *   **Area Under the Curve (AUC)**:
         *  The total **area under** the plasma drug **concentration-time curve**. Directly proportional to the total amount of drug absorbed (**extent** of absorption). AUC越大，药物被机体吸收的越完全
-    *   **Rate of Absorption**: How fast the drug reaches systemic circulation. Assessed by **Cmax** (peak plasma concentration) and **Tmax** (time to reach Cmax). Relevant for extravascular routes. Cmax he Tmax 对 IV没有意义（进入体内瞬间最大）
+    *   **Rate of Absorption**: How fast the drug reaches systemic circulation. Assessed by **Cmax** (peak plasma concentration) and **Tmax** (time to reach Cmax). Relevant for extravascular routes. Cmax he Tmax 对 IV没有意义（进入体内瞬间最大）    
+        同一种药物的不同非IV剂型，Cmax和Tmax呈**负相关**趋势：吸收越快，Tmax越短，Cmax越高
   ![Cmax and Tmax](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image1.png)
     *   **Volume of Distribution (Vd)**:
-        *   **Definition**: A theoretical volume **relating** the **total amount of drug** in the body to its **plasma concentration**. Indicates tissue distribution vs. staying in the blood. Calculated by: $$Vd (L/kg) = \frac{\text{Administered dose of drug}(D) × F} {\text{Plasma Concentration} (C)}$$. For IV, F=1, so $$Vd = Dose / C$$. (Unit: L/kg)
+        *   **Definition**: A theoretical volume **relating** the **total amount of drug** in the body to its **plasma concentration**. Indicates tissue distribution vs. staying in the blood. Calculated by: $$Vd (L/kg) = \frac{\text{Administered dose of drug}(D) × F} {\text{Plasma Concentration} (C)}$$. For IV, F=1, so $$Vd = Dose / C$$.
+        *   **Unit**: D often mg/kg (服药量/体重), C is mg/L, so Vd is L/kg
         *   **Interpretation**: Normal adults have approximately **40L of fluids** in their body
             *   Low Vd (3-5 L): Confined to plasma (e.g., Heparin, Warfarin).
             *   Moderate Vd (10-20 L): Distributed in extracellular fluid 细胞外液 (e.g., Aminoglycosides).
@@ -52,9 +54,10 @@ PK describes the fate of a drug within the body using the LADME framework.
     *   **Clearance (CL)**: 单位时间内完全清除药物的血浆体积
         *  The volume of plasma completely cleared of drug per unit time. Measures elimination efficiency. $$CL = \frac{\text{Drug concentration in urine}(U) × \text{Urine Flow Rate} (V)}{\text{Plasma Concentration} (C)}$$.
         *   Via Organs: Kidneys, liver, lungs, etc.
-    *   **Half-Life (t½)** 半衰期:
-        *   Time required for plasma drug concentration to **decrease by 50%** during elimination.
+    *   **Half-Life ($$t_{1/2}$$)** 半衰期:
+        *   Time required for plasma drug concentration to **decrease by 50%** during elimination. （半衰期是不会随着剂量改变而改变的，若100mg代谢到50mg用12h，50mg到25mg也是12h）
         *   Clinical Significance: Determines dosing frequency and time to reach steady-state concentration.
+        *   主要受Vd和CL影响，Vd越大或CL越小，半衰期越长
 *   **Routes of Administration**:
     *   **Enteral** (via GI Tract 消化道):
         *   Oral (PO): Most common; convenient, but variable absorption/first-pass metabolism.
