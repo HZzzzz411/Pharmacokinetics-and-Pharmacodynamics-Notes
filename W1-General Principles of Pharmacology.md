@@ -18,10 +18,10 @@ date: 2025-09-10
         *  Therapeutic dose(治疗剂量): The administered amount of drug（给药量）  
         *  Concentration(浓度): The level of drug measured in plasma/tissues (PK outcome)
         *  Effect: The clinical/biological response observed (PD outcome)
-*   **Drug**: The **active chemical** substance with **biological activity** (e.g., Paracetamol 醋氨酚).
+*   **Drug**: The **active chemical** substance with **biological activity** (e.g. Paracetamol 醋氨酚).
 *   **Medicine (Pharmaceutical)**: The formulated product for **human use**, containing the active drug + **inactive ingredients** (excipients 赋形剂) like binders or fillers (e.g., Panadol® tablet).
 *   **Dose**: The **quantity** of a drug administered at **one time**.
-*   **Dosage Form**: The **physical form** in which a drug is administered (e.g., tablet, capsule, injection, syrup, cream, patch).
+*   **Dosage Form**: The **physical form** in which a drug is administered (e.g. tablet, capsule, injection, syrup, cream, patch).
 
 ## II. Pharmacokinetics (PK): 
 
