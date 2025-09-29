@@ -1,15 +1,5 @@
 # Comprehensive Summary of Lecture 2: Introduction to Biopharmaceutics (APH207)
 
-## I. Module & Lecture Information
-
-*   **Module Code**: APH207
-*   **Module Title**: Pharmacokinetics and Pharmacodynamics
-*   **Lecture Title**: Introduction to Biopharmaceutics
-*   **Lecturer**: Dr. Aun Raza (`Aun.Raza@xjtlu.edu.cn`)
-*   **Recommended Textbooks**:
-    *   *Applied Biopharmaceutics and Pharmacokinetics* by Leon Shargel and Andrew Yu (ISBN: 978-0071830935, McGraw-Hill)
-    *   *Biopharmaceutics and Pharmacokinetics* by Jianping Liu (ISBN: 9787117219228, People’s Medical Publishing House)
-
 ## II. Core Definition: What is Biopharmaceutics?
 
 *   **Definition**: Biopharmaceutics is the study of how the **physicochemical properties** of a drug substance and its **dosage form** (e.g., tablet, capsule, suspension, injection) influence the **rate** and **extent** of drug absorption into the systemic circulation.
