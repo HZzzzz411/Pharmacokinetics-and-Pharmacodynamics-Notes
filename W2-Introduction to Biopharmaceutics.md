@@ -1,12 +1,13 @@
-# Comprehensive Summary of Lecture 2: Introduction to Biopharmaceutics (APH207)
+# Lecture 2: Introduction to Biopharmaceutics
 
-## II. Core Definition: What is Biopharmaceutics?
+## I. Core Definition: Biopharmaceutics?
 
-*   **Definition**: Biopharmaceutics is the study of how the **physicochemical properties** of a drug substance and its **dosage form** (e.g., tablet, capsule, suspension, injection) influence the **rate** and **extent** of drug absorption into the systemic circulation.
+*   **Biopharmaceutics**:  Study of how the **physicochemical properties**(物理化学性质) of a drug substance and its **dosage form** (e.g., tablet, capsule, suspension, injection) influence the **rate** and **extent** of drug absorption into the systemic circulation.
 *   **Central Conceptual Pathway**: Drug Product → Administration → Liberation → Absorption → Systemic Circulation → Pharmacologic Effect.
-*   **Significance**: Explains why two products containing the same active pharmaceutical ingredient (API) can exhibit different clinical performances (e.g., onset of action, peak effect) due to differences in formulation or physical properties. For example, a paracetamol suspension acts faster than a tablet because the drug is pre-dispersed, leading to quicker dissolution and absorption.
+*   **Significance**: Explains why two products containing the same active pharmaceutical ingredient (药物活性成分) can exhibit different clinical performances (e.g., onset of action, peak effect) due to differences in formulation or physical properties. For example, a paracetamol **suspension**(混悬液) acts **faster than a tablet** because the drug is pre-dispersed, leading to quicker dissolution and absorption.
+    *  设计合理的给药方案，以更好的方式开发治疗效果；描述在不同的身体部位达到的药物水平和相应的药理作用之间的直接关系；预测药品的体内性能（in vivo performance）
 
-## III. Link to Pharmacokinetics (PK) and the ADME/LADME Framework
+## II. Link to Pharmacokinetics (PK) and the ADME/LADME Framework
 
 *   Biopharmaceutics primarily governs the initial stages of PK, specifically **Liberation (L)** and **Absorption (A)**.
 *   **PK Definition Recap**: The study of the change in drug concentration over time as it passes through the body, involving Absorption, Distribution, Metabolism, and Excretion (ADME), often expanded to LADME.
