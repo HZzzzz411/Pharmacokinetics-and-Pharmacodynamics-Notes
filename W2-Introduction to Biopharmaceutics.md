@@ -1,6 +1,6 @@
 # Lecture 2: Introduction to Biopharmaceutics
 
-## I. Core Definition: Biopharmaceutics?
+## I. Core Definition: Biopharmaceutics
 
 *   **Biopharmaceutics**:  Study of how the **physicochemical properties**(物理化学性质) of a drug substance and its **dosage form** (e.g., tablet, capsule, suspension, injection) influence the **rate** and **extent** of drug absorption into the systemic circulation.
 *   **Central Conceptual Pathway**: Drug Product → Administration → Liberation → Absorption → Systemic Circulation → Pharmacologic Effect.
