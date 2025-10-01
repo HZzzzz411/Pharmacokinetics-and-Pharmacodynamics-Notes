@@ -11,7 +11,7 @@
 
 *   **ADME**: The four core processes of **Pharmacokinetics (PK)** (药代动力学), which describes "what the body does to the drug."（the change in drug concentration as it passes through the body）
     *   **A - Absorption**: drug is administered and entry into systemic circulation (central compartment: blood/plasma).
-        *    Drug's  biopharmaceutics properties (剂型、溶解度、渗透性) decided how fast and how much it enters.
+        *    Drug's  biopharmaceutics properties (配方、溶解度、渗透性) decided how fast and how much it enters.
     *   **D - Distribution**: Movement from blood to tissues.
     *   **M - Metabolism**: Chemical alteration (biotransformation).
     *   **E - Excretion**: Removal from the body.
@@ -28,11 +28,16 @@ For a drug to be absorbed from the gastrointestinal (GI) tract, it must successf
 *   **Principle**: "No dissolution = No absorption." 药物必须溶解在胃肠道液体（gastrointestinal fluids）中才能被吸收
 *   **FDA/BCS High Solubility Criterion**: A drug is considered **highly soluble** if its highest therapeutic dose（最高剂量强度） is soluble in **≤ 250 mL** of aqueous media（水性介质） over the pH range of **1.0–6.8** at **37°C**.
     *   **Rationale**: 250 mL approximates the typical volume of fluid in the human stomach.
+    *   **Solubility Assessment**: Typically performed using the **shake-flask method** (摇瓶法) at pH 1.2, 4.5, and 6.8 to mimic GI conditions
+        *   过程：加入过量药物至溶剂 -> 振摇/搅拌24-48h -> 过滤filter/离心centrifuge -> 用HPLC（高效液相色谱）、UV（分光光度法）等方法测量溶解浓度
+    *   **Stability Check**: 药物物质必须在介质中保持稳定（降解 < 10%）
 
 ### 2. Permeability (渗透性): The "Membrane" Challenge
 *   **Principle**: "No permeability = No absorption." 溶解的药物必须穿过肠膜（intestinal membrane）进入血液
 *   **FDA/BCS High Permeability Criterion**: A drug is considered **highly permeable** if its **absolute bioavailability is ≥ 90%**, or if direct permeability measurements confirm high permeability.
 *   **Governing Principle**: There is a fundamental trade-off between **Lipophilicity** (亲脂性: favors permeability) and **Hydrophilicity** (亲水性: favors solubility).
+*   **Permeability Methods**: 测量药物穿过生物膜的难易程度，主要是肠上皮，对口服吸收很重要。
+    *   两种方式：In Vitro Methods（体外），In Vivo Methods（体内）
 
 ## IV. The Biopharmaceutics Classification System (BCS) (生物药剂学分类系统)
 
@@ -45,7 +50,7 @@ The BCS is a scientific framework that categorizes drugs into four classes based
 | **Class III** | High | **Low** | Absorption is limited by **permeability**. Drug dissolves easily but doesn't cross the membrane well. | **Enhance permeability**: permeation enhancers, prodrugs. | **Yes** (under specific conditions). |
 | **Class IV** | **Low** | **Low** | Absorption is poor and highly variable due to both low solubility and low permeability. | **Advanced strategies required**: nanoparticles (纳米颗粒), liposomes (脂质体), complexation. | **No**. Requires in vivo BE study. |
 
-*   **Biowaiver** (生物豁免): A regulatory mechanism that allows the waiver of in vivo bioequivalence studies for certain drug products, primarily BCS Class I drugs, if their in vitro dissolution profiles are adequate. (允许在无需进行体内生物等效性研究的情况下批准药物产品)
+*   **Biowaiver** (生物豁免): A regulatory mechanism that allows the waiver of in vivo bioequivalence studies for certain drug products, primarily BCS Class I drugs, if their in vitro dissolution profiles are adequate. (允许在无需进行体内生物等效性研究的情况下批准药物产品，配方不影响吸收，体外溶出试验可代替人体研究)
   
 ## V. Bioavailability (F) (生物利用度) and Bioequivalence (BE) (生物等效性)
 
@@ -61,20 +66,24 @@ These are the key quantitative measures that link biopharmaceutical properties t
 *   **Why Oral F is Usually <100%**: Due to incomplete dissolution, poor permeability, degradation in the GI tract, and **first-pass metabolism** (首过效应).
 
 ### Bioequivalence (BE)
-*   **Definition**: Two pharmaceutical products (e.g., a generic and a brand-name drug) are considered **bioequivalent** if they are **pharmaceutical equivalents** (same API, dose, dosage form, route) and their **rates** and **extents** of absorption are not significantly different.
+*   **Definition**: Two pharmaceutical products (e.g., a generic and a brand-name drug) are considered **bioequivalent** if they are **pharmaceutical equivalents** (same active ingredient, dose, dosage form, route) and their **rates** and **extents** of absorption are not significantly different. 
 *   **PK Parameters for BE**: Bioequivalence is primarily assessed by comparing:
     *   **AUC (Area Under the Curve)** (曲线下面积): Measures the **extent** of absorption (total drug exposure).
     *   **Cmax (Maximum Concentration)** (峰浓度): Measures the **rate** of absorption (peak effect).
-*   **Regulatory Standard**: The 90% confidence intervals for the test/reference ratio of AUC and Cmax must typically fall within the **80–125%** range.
-*   **Significance**: BE is the **scientific and regulatory foundation for generic drug approval**, ensuring that a generic product will have the same safety and efficacy profile as the innovator product.
+*   **Regulatory Standard**: The 90% confidence intervals for the test/reference ratio of **AUC and Cmax** must typically fall within the **80–125%** range.
+*   **Significance**: BE is the **scientific and regulatory foundation for generic drug approval** (仿制药批准的基础), ensuring that a generic product will have the same safety and efficacy profile as the innovator product.
 
 ## VI. Impact of Route of Administration (ROA) (给药途径)
 
-The chosen ROA dramatically alters a drug's journey and its resulting PK profile.
+The chosen ROA dramatically alters a drug's journey and its resulting PK profile.(直接影响药物的生物利用度，进而决定药理作用的开始和持续时间)
+*   **Parenteral Routes** (肠外给药途径): Intravenous(IV),Intramuscular (IM),Subcutaneous (SC,皮下注射).
+    *   适用于：药物无法通过肠黏膜被吸收，或在胃肠道中不稳定；需要快速起效的紧急情况；失去意识或不配合的患者的治疗；长效或缓释剂型。
+    *   优点：Bioavailability更高，无首过代谢或胃肠道降解过程。 能轻松控制进入体循环的药物的实际剂量。
+    *   缺点：有创且不可逆，可能引发恐惧、疼痛、组织损伤，感染（需要遵循无菌aseptic操作规范）。 需要他人帮助。
 
 | Route | Key Characteristics | Bioavailability (F) | Advantages | Disadvantages |
 | :--- | :--- | :--- | :--- | :--- |
-| **Intravenous (IV)** (静脉注射) | Direct injection into a vein. | **100%** | Immediate effect, precise dosing, no absorption barriers. | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
+| **Intravenous (IV)** (静脉注射) | Direct injection into a vein (bolus推注：单次给药，<10ml; infusion输注:连续给药，>1000ml) | **100%** | Immediate effect, precise dosing, no absorption barriers. | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
 | **Intramuscular (IM)** (肌肉注射) | Injection into muscle tissue. | <100% (Variable) | Suitable for depot/long-acting formulations, good for vaccines. | Painful, absorption rate depends on injection site blood flow, risk of tissue damage. |
 | **Oral (PO)** (口服) | Administration via the mouth. | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
 | **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek. | <100% (but > Oral for some drugs) | Rapid absorption, bypasses first-pass metabolism, easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
