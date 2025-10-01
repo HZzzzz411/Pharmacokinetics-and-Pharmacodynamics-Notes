@@ -89,6 +89,7 @@ The chosen ROA dramatically alters a drug's journey and its resulting PK profile
 | **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek. | <100% (but > Oral for some drugs) | Rapid absorption, bypasses first-pass metabolism, easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
 | **Inhalation** (吸入) | Delivery to the lungs via aerosol. | <100% (Variable) | Rapid systemic absorption (for small molecules) or direct local action (for asthma), minimal systemic side effects for local use. | Requires patient coordination, device-dependent, **particle size** (~1-5 µm) is critical. |
 | **Transdermal** (经皮) | Application to the skin (patch). | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be potent and **lipophilic**, slow onset, potential for skin irritation. |
+
 ![IV](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image4.png)
 
 ## VII. Plasma Concentration-Time Curve: The PK Roadmap
