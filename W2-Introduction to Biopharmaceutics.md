@@ -15,7 +15,8 @@
         *    药物可以从Central Compartment移动到Peripheral Compartment (外周隔室: tissue/organs where the drug distributes) 或elimination（metabolism [liver], excretion [kidney]）, 药物在中央隔室和外周隔室之间来回移动。
     *   **D - Distribution**: Movement from blood to tissues.
     *   **M - Metabolism**: Chemical alteration (biotransformation).
-    *   **E - Excretion**: Removal from the body.
+    *   **E - Excretion**: Removal from the body.    
+    ![Time curve]  https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image3.png)
 *   **LADME**: An expanded model that includes **Liberation** (release of the drug from its dosage form) as the critical first step for non-intravenous dosage forms, which is the primary focus of biopharmaceutics.
 
 ## III. Key Determinants of Oral Absorption: Solubility & Permeability
