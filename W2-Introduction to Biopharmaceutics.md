@@ -12,11 +12,12 @@
 *   **ADME**: The four core processes of **Pharmacokinetics (PK)** (药代动力学), which describes "what the body does to the drug."（the change in drug concentration as it passes through the body）
     *   **A - Absorption**: drug is administered and entry into systemic circulation (central compartment: blood/plasma).
         *    Drug's  biopharmaceutics properties (剂型、溶解度、渗透性) decided how fast and how much it enters.
-        *    药物可以从Central Compartment移动到Peripheral Compartment (外周隔室: tissue/organs where the drug distributes) 或elimination（metabolism [liver], excretion [kidney]）, 药物在中央隔室和外周隔室之间来回移动。
     *   **D - Distribution**: Movement from blood to tissues.
     *   **M - Metabolism**: Chemical alteration (biotransformation).
-    *   **E - Excretion**: Removal from the body.    
-    ![Time curve]  https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image3.png)
+    *   **E - Excretion**: Removal from the body.
+        *    药物可以从Central Compartment移动到Peripheral Compartment (外周隔室: tissue/organs where the drug distributes) 或elimination（metabolism [liver], excretion [kidney]）, 药物在中央隔室和外周隔室之间来回移动。
+        *    Cmax和Tmax在absorption阶段出现，elimination阶段的斜率给出药物的半衰期        
+![Time curve](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image3.png)
 *   **LADME**: An expanded model that includes **Liberation** (release of the drug from its dosage form) as the critical first step for non-intravenous dosage forms, which is the primary focus of biopharmaceutics.
 
 ## III. Key Determinants of Oral Absorption: Solubility & Permeability
@@ -24,29 +25,28 @@
 For a drug to be absorbed from the gastrointestinal (GI) tract, it must successfully overcome two sequential barriers: it must **dissolve** and then **permeate** across the intestinal membrane.
 
 ### 1. Solubility (溶解度): The "Dissolution" Challenge
-*   **Principle**: "No dissolution = No absorption." A drug must be in solution to be absorbed.
-*   **FDA/BCS High Solubility Criterion**: A drug is considered **highly soluble** if its highest therapeutic dose is soluble in **≤ 250 mL** of aqueous media over the pH range of **1.0–6.8** at **37°C**.
+*   **Principle**: "No dissolution = No absorption." 药物必须溶解在胃肠道液体（gastrointestinal fluids）中才能被吸收
+*   **FDA/BCS High Solubility Criterion**: A drug is considered **highly soluble** if its highest therapeutic dose（最高剂量强度） is soluble in **≤ 250 mL** of aqueous media（水性介质） over the pH range of **1.0–6.8** at **37°C**.
     *   **Rationale**: 250 mL approximates the typical volume of fluid in the human stomach.
-*   **Solubility Assessment**: Typically performed using the **shake-flask method** (摇瓶法) at pH 1.2, 4.5, and 6.8 to mimic GI conditions.
 
 ### 2. Permeability (渗透性): The "Membrane" Challenge
-*   **Principle**: "No permeability = No absorption." The dissolved drug must cross the intestinal epithelial barrier.
-*   **FDA/BCS High Permeability Criterion**: A drug is considered **highly permeable** if its **absolute bioavailability is ≥ 90%**, or if direct permeability measurements (e.g., Caco-2 cell assay) confirm high permeability.
-*   **Governing Principle**: There is a fundamental trade-off between **Lipophilicity** (亲脂性) (favors permeability) and **Hydrophilicity** (亲水性) (favors solubility).
+*   **Principle**: "No permeability = No absorption." 溶解的药物必须穿过肠膜（intestinal membrane）进入血液
+*   **FDA/BCS High Permeability Criterion**: A drug is considered **highly permeable** if its **absolute bioavailability is ≥ 90%**, or if direct permeability measurements confirm high permeability.
+*   **Governing Principle**: There is a fundamental trade-off between **Lipophilicity** (亲脂性: favors permeability) and **Hydrophilicity** (亲水性: favors solubility).
 
 ## IV. The Biopharmaceutics Classification System (BCS) (生物药剂学分类系统)
 
-The BCS is a scientific framework that categorizes drugs into four classes based on their solubility and permeability, which is crucial for predicting absorption behavior and guiding regulatory decisions.
+The BCS is a scientific framework that categorizes drugs into four classes based on their solubility and permeability (对于预测吸收行为和指导监管决策至关重要)
 
 | BCS Class | Solubility | Permeability | Absorption Characteristics | Formulation Strategy | Biowaiver Eligibility |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Class I** | High | High | Absorption is rapid and complete. Not limited by dissolution or permeability. | Standard formulations are usually sufficient. | **✅ Yes**. Ideal candidate. |
-| **Class II** | **Low** | High | Absorption is limited by **dissolution rate**. Once dissolved, it is well-absorbed. | **Enhance dissolution**: particle size reduction, salt formation, use of surfactants or co-solvents. | **❌ No**. Requires in vivo BE study. |
-| **Class III** | High | **Low** | Absorption is limited by **permeability**. Drug dissolves easily but doesn't cross the membrane well. | **Enhance permeability**: permeation enhancers, prodrugs. | **✅ Yes** (under specific conditions). |
-| **Class IV** | **Low** | **Low** | Absorption is poor and highly variable due to both low solubility and low permeability. | **Advanced strategies required**: nanoparticles, liposomes, complexation. | **❌ No**. Requires in vivo BE study. |
+| **Class I** | High | High | Absorption is rapid and complete. Not limited by dissolution or permeability. | Standard formulations are usually sufficient. | **Yes**. Ideal |
+| **Class II** | **Low** | High | Absorption is limited by **dissolution rate**. Once dissolved, it is well-absorbed. | **Enhance dissolution**: particle size reduction, salt formation, use of surfactants or co-solvents. | **No**. Requires in vivo BE study. |
+| **Class III** | High | **Low** | Absorption is limited by **permeability**. Drug dissolves easily but doesn't cross the membrane well. | **Enhance permeability**: permeation enhancers, prodrugs. | **Yes** (under specific conditions). |
+| **Class IV** | **Low** | **Low** | Absorption is poor and highly variable due to both low solubility and low permeability. | **Advanced strategies required**: nanoparticles (纳米颗粒), liposomes (脂质体), complexation. | **No**. Requires in vivo BE study. |
 
-*   **Biowaiver** (生物豁免): A regulatory mechanism that allows the waiver of in vivo bioequivalence studies for certain drug products, primarily BCS Class I drugs, if their in vitro dissolution profiles are adequate.
-
+*   **Biowaiver** (生物豁免): A regulatory mechanism that allows the waiver of in vivo bioequivalence studies for certain drug products, primarily BCS Class I drugs, if their in vitro dissolution profiles are adequate. (允许在无需进行体内生物等效性研究的情况下批准药物产品)
+  
 ## V. Bioavailability (F) (生物利用度) and Bioequivalence (BE) (生物等效性)
 
 These are the key quantitative measures that link biopharmaceutical properties to clinical outcomes.
