@@ -83,15 +83,32 @@ The chosen ROA dramatically alters a drug's journey and its resulting PK profile
 
 | Route | Key Characteristics | Types | Bioavailability (F) | Advantages | Disadvantages |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Intravenous (IV)** (静脉注射) | Direct injection into a vein | bolus推注：单次给药，<10ml; infusion输注:连续给药，>1000ml | **100%** | Immediate effect, precise dosing, no absorption barriers | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
-| **Intramuscular (IM)** (肌肉注射) | Injection (solution, suspension, emulsion乳剂) into muscle tissue | 上臂2ml高吸收, buttock臀部7-8ml，external thigh face外侧大腿部位 | <100% (Variable) | Suitable for depot/long-acting formulations, good for vaccines; avoid entering a blood vessel, minimizing risk of infection | Painful, absorption rate depends on injection site blood flow, risk of tissue damage. |
-| **Oral (PO)** (口服) | Administration via the mouth |  | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
-| **Inhalation** (吸入) | Delivery to the lungs via aerosol | | <100% (Variable) | Rapid systemic absorption (for small molecules) or direct local action (for asthma), minimal systemic side effects for local use. | Requires patient coordination, device-dependent, **particle size** (~1-5 µm) is critical. |
-| **Oral (PO)** (口服) | Administration via the mouth |  | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
-| **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek | | <100% (but > Oral for some drugs) | Rapid absorption, bypasses first-pass metabolism, easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
-| **Transdermal** (经皮) | Application to the skin (patch) | | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be potent and **lipophilic**, slow onset, potential for skin irritation. |
+| **Intravenous (IV)** (静脉注射) | Direct injection into a vein | bolus推注：单次给药，<10ml<br> infusion输注:连续给药，>1000ml | **100%** | Immediate effect, precise dosing, no absorption barriers | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
+| **Intramuscular (IM)** (肌肉注射) | Injection (solution, suspension, emulsion乳剂) into muscle tissue | 上臂 2ml 高吸收<br>buttock臀部 7-8ml 低吸收<br>external thigh face外侧大腿部位 5ml 婴幼儿使用，有nerve damage风险 | <100% (Variable) | Suitable for depot/long-acting formulations, good for vaccines; avoid entering a blood vessel, minimizing risk of infection | Painful, absorption rate depends on injection site blood flow, risk of tissue damage. |
+| **Subcutaneous** (皮下注射) | Injected or implanted under the skin into the adipose layer beneath the dermis (真皮下的脂肪层) | injections:油性混悬液<br>implants：长效可逆避孕<br>insulin：延长作用时间 | <100% (一次1-2ml，15-30min起效) | 最适合self-administration，less invasive than IV/IM，感染风险小 | / |
+| **Inhalation** (吸入) | Delivery to the lungs via aerosol, deposition in the lower airways | nose: 较大的颗粒会沉积<br>mouth: 减少上呼吸道沉积 | <100% (Variable) | Rapid systemic absorption (for small molecules) or direct local action (for asthma), 快速起效，minimal systemic toxicity | device-dependent, **particle size** (~1-5 µm) is critical. |
+| **Oral (PO)** (口服) | Administration via the mouth | / | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
+| **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek, Systemic absorption of drugs (peptidesn多肽类) | / | <100% (but > Oral for some drugs) | Rapid absorption and onset, bypasses first-pass metabolism (Portal circulation and is avoided, 不暴露于GI介质中), easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
+| **Rectal** (直肠) | Systemic and local administration，often erratic and variable (取决于具体区域) | / | <100%  | plasma concentration比oral高（rectal epithelium由无角质无绒毛的细胞组成，有丰富的血液供应和venous drainage） | onset：5-30min |
+| **Transdermal** (经皮) | Application to the skin (patch) | | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be **potent** and **lipophilic**(亲脂性的), slow onset, cause skin irritation. |
+
+*   **First-pass effect**: the biotransformation reactions of a **drug orally administered** during the absorption process and **before reaching the systemic circulation**.
+    *   两个障碍：
+        *   Biochemical Barrier (代谢酶enzymes and acids): saliva唾液&stomach，intestine
+        *   Physical Barrier (the structure of the gut wall itself，膜转运系统): mucus粘液，enterocytes肠上皮细胞，特殊细胞（goblet cells产生粘液，paneth cells分泌天然抗生素，M细胞向免疫系统发出威胁警报）
+*   **gut is a selective filter**：   
+     化学破坏（生化）: 酸和酶分解大多数威胁。   
+     物理捕获（粘液）: 粘液层固定并容纳剩余物质。   
+     细胞防御（潘氏细胞）: 抗菌肽杀死靠近肠壁的微生物。   
+     细胞选择（肠上皮细胞）: 一个紧密密封的细胞层，仅通过特定转运体允许预消化的营养物质通过。   
+     免疫监视 Immune Surveillance（M细胞）: 持续监测肠道内容物，以训练免疫系统并在需要时启动防御
+    *   **leaky gut**: 肠道通透性增加的状况，未消化的食物颗粒、毒素和细菌可以进入血液，从而引发炎症(inflammation)、食物敏感性和其他健康问题。
 
 ![IV](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image4.png)
+
+![PK Characteristics of IM administration](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image5.png)
+
+![Transdermal](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image6.png)
 
 ## VII. Plasma Concentration-Time Curve: The PK Roadmap
 
