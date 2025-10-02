@@ -56,14 +56,21 @@ This is a central principle governing the absorption of weak acids and bases.
 *   **Patient-Related Factors**:
     *   **GI pH**: Dictates the ionization state of the drug (as per the pH-partition hypothesis).
     *   **GI Transit Time & Motility**(胃肠道动力): Faster gastric emptying speeds up the arrival of a drug in the small intestine (the primary site of absorption). Diarrhea can reduce absorption time.
+    *   **Surface area of GI organs**: 表面积越大吸收越快。小肠吸收比胃快因为表面积更大
     *   **Food**: Can dilute the drug and slow gastric emptying, thereby retarding absorption (e.g., ampicillin, aspirin). However, it can also reduce gastric irritation胃刺激.
-    *   **Disease States**: Conditions like malabsorption syndromes, achlorhydria (无胃酸症, lack of stomach acid), or liver cirrhosis (肝硬化) can significantly alter absorption and first-pass metabolism.
+    *   **Disease States**: Conditions like malabsorption(吸收不良), achlorhydria (无胃酸症, lack of stomach acid), Thyrotoxicosis(甲亢) or liver cirrhosis (肝硬化) can significantly alter absorption and first-pass metabolism.
     *   **Drug-Drug Interactions**: One drug can affect the absorption of another (e.g., Vitamin C enhances iron absorption; calcium in milk forms insoluble complexes with tetracyclines, reducing their absorption).
     *   **First pass metabolism**
 *   **Drug-Related Factors**:
-    *   **Physicochemical Properties**: Solubility, lipid/water partition coefficient, pKa, molecular weight (ideally <500 Da), and chemical stability (e.g., Penicillin-G is acid-labile (对酸不稳定), while Penicillin-V is acid-stable (耐酸)).
-    *   **Particle Size **(粒径): For poorly soluble drugs, a smaller particle size increases the surface area for dissolution, enhancing absorption (e.g., chloramphenicol, griseofulvin).
-    *   **Dosage Form**: Liquid formulations are generally absorbed faster than solids. Formulation can be designed to target specific sites (e.g., enteric-coated tablets for intestinal release).
+    *   **Physicochemical Properties**:
+        *   physical state：液体比固体剂型在胃肠道吸收更快更好
+        *   Solubility
+        *   lipid/water partition coefficient: 脂溶性药物吸收更好
+        *   pKa
+        *   molecular weight (ideally <500 Da): 高分子量的药物通常不会口服(可能因酶降解而失活，如insulin)
+        *   chemical stability: Penicillin-G 青霉素G is acid-labile (对酸不稳定) 不适合口服, while Penicillin-V is acid-stable (耐酸).
+    *   **Particle Size**(粒径): For poorly soluble drugs, a smaller particle size increases the surface area for dissolution, enhancing absorption (e.g., chloramphenicol, griseofulvin).
+        *   Neomycin (新霉素) is purposely given orally with poor absorption so it can act locally in the intestine
 
 ## III. Distribution: From Blood to Tissues
 
