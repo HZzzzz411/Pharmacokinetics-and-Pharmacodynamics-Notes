@@ -78,7 +78,7 @@ The chosen ROA dramatically alters a drug's journey and its resulting PK profile
     *   缺点：有创且不可逆，可能引发恐惧、疼痛、组织损伤，感染（需要遵循无菌aseptic操作规范）。 需要他人帮助。
 
 | Route | Key Characteristics | Types | Bioavailability (F) | Advantages | Disadvantages |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :---- | :--- | :--- | :--- |
 | **Intravenous (IV)** (静脉注射) | Direct injection into a vein | bolus推注：单次给药，<10ml<br> infusion输注:连续给药，>1000ml | **100%** | Immediate effect, precise dosing, no absorption barriers | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
 | **Intramuscular (IM)** (肌肉注射) | Injection (solution, suspension, emulsion乳剂) into muscle tissue | 上臂 2ml 高吸收<br>buttock臀部 7-8ml 低吸收<br>external thigh face外侧大腿部位 5ml 婴幼儿使用，有nerve damage风险 | <100% (Variable) | Suitable for depot/long-acting formulations, good for vaccines; avoid entering a blood vessel, minimizing risk of infection | Painful, absorption rate depends on injection site blood flow, risk of tissue damage. |
 | **Subcutaneous** (皮下注射) | Injected or implanted under the skin into the adipose layer beneath the dermis (真皮下的脂肪层) | injections:油性混悬液<br>implants：长效可逆避孕<br>insulin：延长作用时间 | <100% (一次1-2ml，15-30min起效) | 最适合self-administration，less invasive than IV/IM，感染风险小 | / |
@@ -86,7 +86,7 @@ The chosen ROA dramatically alters a drug's journey and its resulting PK profile
 | **Oral (PO)** (口服) | Administration via the mouth | / | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
 | **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek, Systemic absorption of drugs (peptidesn多肽类) | / | <100% (but > Oral for some drugs) | Rapid absorption and onset, bypasses first-pass metabolism (Portal circulation门静脉循环 is avoided, 不暴露于GI介质中), easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
 | **Rectal** (直肠) | Systemic and local administration，often erratic and variable (取决于具体区域) | / | <100%  | plasma concentration比oral高（rectal epithelium由无角质无绒毛的细胞组成，有丰富的血液供应和venous drainage） | onset：5-30min |
-| **Transdermal** (经皮) | Application to the skin (patch) | | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be **potent** and **lipophilic**(亲脂性的), slow onset, cause skin irritation. |
+| **Transdermal** (经皮) | Application to the skin (patch) | /  | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be **potent** and **lipophilic**(亲脂性的), slow onset, cause skin irritation. |
 
 *   **Why Oral F is Usually <100%**: Due to incomplete dissolution, poor permeability, degradation in the GI tract, and **first-pass metabolism** (首过效应).
 
