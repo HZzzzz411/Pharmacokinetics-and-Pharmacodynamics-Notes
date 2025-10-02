@@ -89,6 +89,7 @@ The chosen ROA dramatically alters a drug's journey and its resulting PK profile
 | **Transdermal** (经皮) | Application to the skin (patch) | /  | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be **potent** and **lipophilic**(亲脂性的), slow onset, cause skin irritation. |
 
 *   **Why Oral F is Usually <100%**: Due to incomplete dissolution, poor permeability, degradation in the GI tract, and **first-pass metabolism** (首过效应).
+    *  **路径**: 胃肠道 → 门静脉 → 肝脏 → 肝静脉 -> 全身 
 
 *   **First-pass effect**: the biotransformation reactions of a **drug orally administered** during the absorption process and **before reaching the systemic circulation**.
     *   the phenomenon which occurs whenever the drug is administered orally, enters the liver, and **suffers extensive biotransformation** to such an extent that the bioavailability is drastically reduced, thus showing subtherapeutic action(亚治疗作用)
