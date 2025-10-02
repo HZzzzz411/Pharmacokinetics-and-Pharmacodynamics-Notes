@@ -9,6 +9,7 @@
     3.  **Metabolism** (Biotransformation, 生物转化): The chemical alteration of the drug, primarily in the liver, to convert it into metabolites that are typically more water-soluble for excretion.
     4.  **Excretion** (排泄): The process by which the drug and its metabolites are eliminated from the body (in urine尿液, bile胆汁, feces粪便).
 *   **LADME Extension**: The process often begins with **Liberation **(释放), which is the release of the active drug from its dosage form (e.g., a tablet disintegrating and dissolving).
+![PK & PD](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image8.png)
 
 ## II. Absorption: Entry into the Systemic Circulation
 
@@ -16,36 +17,49 @@ Absorption is the critical first step for any non-intravenous drug to exert a sy
 
 ### Processes for Solid Oral Dosage Forms
 Before a drug in a solid oral form (e.g., a tablet) can be absorbed, it must undergo a series of physical transformations:
-1.  **Disintegration **(崩解): The tablet breaks down into smaller granules.
-2.  **Deaggregation **(解聚): The granules break apart into fine particles.
-3.  **Dissolution **(溶解): The fine particles dissolve in the gastrointestinal (GI) fluids to form an aqueous solution. Only the dissolved drug can be absorbed.
+1.  **Disintegration**(崩解): The tablet breaks down into smaller granules.
+2.  **Deaggregation**(解聚): The granules break apart into fine particles.
+3.  **Dissolution**(溶解): The fine particles dissolve in the gastrointestinal (GI) fluids to form an aqueous solution. Only the dissolved drug can be absorbed.
 
 ### Mechanisms of Drug Transport Across Membranes
+*   **Cell membrane (biological membrane)**: 双层磷脂(phospholipids) + protein molecules   
+    lipid soluble substances 可溶于细胞膜并易渗透进入细胞   
+    junctions between adjacent 上皮(epithelial)或内皮(endothelial)细胞有小孔(pores), 小的水溶性分子可通过
 Drugs cross biological membranes through several mechanisms:
-*   **Passive Diffusion **(被动扩散): The most common mechanism. It is a non-saturable, energy-independent process where drugs move **down** their concentration gradient (from high to low concentration). It is highly dependent on the drug's lipid solubility.
-*   **Facilitated Diffusion **(易化扩散): A carrier-mediated, energy-independent process that moves drugs **down** their concentration gradient. It is specific and can become saturated (e.g., glucose absorption via GLUT transporters).
-*   **Active Transport **(主动转运): A carrier-mediated, energy-dependent (requires ATP) process that moves drugs **against** their concentration gradient. It is highly specific and saturable (e.g., absorption of iron and certain amino acids).
-*   **Endocytosis **(胞吞作用): A process used for the absorption of exceptionally large molecules (e.g., proteins, peptides). The cell membrane engulfs the substance, forming a vesicle that transports it into the cell.
+*   **Passive Diffusion**(被动扩散): The most common mechanism. It is a **non-saturable**, **energy-independent** process where drugs move **down** their concentration gradient (from high to low concentration). It is highly dependent on the drug's lipid solubility, 通常是亲脂性药物。
+    *  水溶性药物（离子化的）会通过水通道或孔隙穿过细胞膜；脂溶性（非离子化）药物由于能溶解于生物膜的脂质双层中，所以能够轻易地穿过大多数生物膜。
+*   **Facilitated Diffusion**(易化扩散): A **carrier-mediated** (transporter proteins转运蛋白), **energy-independent** process that moves drugs **down** their concentration gradient. It is specific and can become **saturate**d (e.g., glucose absorption via GLUT transporters).
+    *   依赖载体蛋白的数量。glucose，iron 和 amino acids(氨基酸)从肠道吸收就是易化扩散。
+*   **Active Transport**(主动转运): A **carrier-mediated**, **energy-dependent** (requires ATP) process that moves drugs **against** their concentration gradient. It is highly **specific and saturable** (e.g., absorption of iron and certain amino acids).
+    *   化合物(compound)和膜一侧的特定载体结合后穿过细胞膜进入细胞, 在细胞另一侧复合物分解，载体回去转运其他分子
+*   **Endocytosis**(胞吞作用): A process used for the absorption of **exceptionally large** molecules (e.g., proteins, peptides). The cell membrane **engulfs** the substance, forming a **vesicle**(囊泡) that transports it into the cell.
 
 ### The pH-Partition Hypothesis and the Henderson-Hasselbalch Equation
 This is a central principle governing the absorption of weak acids and bases.
-*   **Core Principle**: Biological membranes are composed of lipids. Therefore, only the **non-ionized **(unionized, 非离子化) form of a drug, which is **lipid-soluble **(脂溶性), can readily cross these membranes via passive diffusion. The **ionized **(离子化) form is **water-soluble **(水溶性) and is effectively "trapped" on one side of the membrane.
+*   **Core Principle**: Biological membranes are composed of lipids. Therefore, only the **non-ionized**(unionized, 非离子化) form of a drug, which is **lipid-soluble**, can readily cross these membranes via passive diffusion. The **ionized **(离子化) form is **water-soluble** and is effectively "trapped" on one side of the membrane.
+*   **离子化**：酸提供H+，碱接受H+，细胞膜对非离子化形式比离子化更具渗透性（在体液的生理pH=7.4的情况下脂溶性更高的药物以非离子化形式存在，水溶性更高的药物以离子化形式存在）
+*   弱酸性药物在酸性介质中，弱碱性药物在碱性(allkaline)介质中 => 保持非离子化 => readily absorbed   
+    弱酸性药物在碱性介质中，弱碱性药物在酸性介质中 => 离子化 => slowly absorbed
 *   **Henderson-Hasselbalch Equation**:
-    *   For a **Weak Acid **(弱酸) (`HA ⇌ H⁺ + A⁻`): `pH = pKa + log([A⁻]/[HA])`
-        *   **Rule**: When `pH < pKa`, the non-ionized form (`HA`) predominates (good for absorption in acidic environments like the stomach).
-        *   When `pH > pKa`, the ionized form (`A⁻`) predominates (poor absorption).
-    *   For a **Weak Base **(弱碱) (`B + H⁺ ⇌ BH⁺`): `pH = pKa + log([B]/[BH⁺])`
-        *   **Rule**: When `pH > pKa`, the non-ionized form (`B`) predominates (good for absorption in neutral/alkaline environments like the small intestine).
-        *   When `pH < pKa`, the ionized form (`BH⁺`) predominates (poor absorption).
-*   **Application**: A weak base with a pKa of 8.5 will be almost entirely ionized and unabsorbable in the stomach (pH ~2.0). In the small intestine (pH ~6.5), while still mostly ionized, a small but significant fraction will be non-ionized, allowing for practical absorption. A weak base with a pKa closer to 7.5 (e.g., 6.5) would be 50% non-ionized in the intestine, making it ideal for absorption there.
+    *   For a **Weak Acid**(弱酸) ($HA ⇌ H⁺ + A⁻$): $pH = pKa + log(\frac{[A⁻]}{[HA]})$
+        *   When **pH < pKa**, the **non-ionized form (HA/RCOOH) predominates** (good for absorption in acidic environments like the stomach). 酸更酸吸收好
+        *   When **pH > pKa**, the **ionized form (A⁻/RCOO⁻) predominates** (poor absorption).
+        *   log中是离子化/非离子化，因此数值大代表环境偏碱性，酸被离子化，难吸收
+    *   For a **Weak Base**(弱碱) ($B + H⁺ ⇌ BH⁺$): $pH = pKa + log(\frac{[B]}{[BH⁺]})$
+        *   When **pH > pKa**, the **non-ionized form (B/ $RNH_2$) predominates** (good for absorption in neutral/alkaline environments like the small intestine). 碱更碱吸收好
+        *   When **pH < pKa**, the **ionized form (BH⁺/ $RNH_{3}^{+}$) predominates** (poor absorption).
+        *   log中是非离子化/离子化，因此数值大代表环境偏碱性，碱保持非离子化，易吸收（log中数值大都代表环境偏碱性）
+*   pH = pKa时大约50%的分子离子化：pKa时分子50%离子化，50%非离子化的ph值
+*   当药物在肠道中向下移动时，pH值增加，酸性药物更多离子化，而碱性药物的电离程度较低
 
 ### Factors Affecting Absorption
 *   **Patient-Related Factors**:
     *   **GI pH**: Dictates the ionization state of the drug (as per the pH-partition hypothesis).
-    *   **GI Transit Time & Motility **(胃肠道动力): Faster gastric emptying speeds up the arrival of a drug in the small intestine (the primary site of absorption). Diarrhea can reduce absorption time.
-    *   **Food**: Can dilute the drug and slow gastric emptying, thereby retarding absorption (e.g., ampicillin, aspirin). However, it can also reduce gastric irritation.
+    *   **GI Transit Time & Motility**(胃肠道动力): Faster gastric emptying speeds up the arrival of a drug in the small intestine (the primary site of absorption). Diarrhea can reduce absorption time.
+    *   **Food**: Can dilute the drug and slow gastric emptying, thereby retarding absorption (e.g., ampicillin, aspirin). However, it can also reduce gastric irritation胃刺激.
     *   **Disease States**: Conditions like malabsorption syndromes, achlorhydria (无胃酸症, lack of stomach acid), or liver cirrhosis (肝硬化) can significantly alter absorption and first-pass metabolism.
     *   **Drug-Drug Interactions**: One drug can affect the absorption of another (e.g., Vitamin C enhances iron absorption; calcium in milk forms insoluble complexes with tetracyclines, reducing their absorption).
+    *   **First pass metabolism**
 *   **Drug-Related Factors**:
     *   **Physicochemical Properties**: Solubility, lipid/water partition coefficient, pKa, molecular weight (ideally <500 Da), and chemical stability (e.g., Penicillin-G is acid-labile (对酸不稳定), while Penicillin-V is acid-stable (耐酸)).
     *   **Particle Size **(粒径): For poorly soluble drugs, a smaller particle size increases the surface area for dissolution, enhancing absorption (e.g., chloramphenicol, griseofulvin).
