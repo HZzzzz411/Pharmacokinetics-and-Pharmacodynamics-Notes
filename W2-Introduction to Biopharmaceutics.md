@@ -81,14 +81,15 @@ The chosen ROA dramatically alters a drug's journey and its resulting PK profile
     *   优点：Bioavailability更高，无首过代谢或胃肠道降解过程。 能轻松控制进入体循环的药物的实际剂量。
     *   缺点：有创且不可逆，可能引发恐惧、疼痛、组织损伤，感染（需要遵循无菌aseptic操作规范）。 需要他人帮助。
 
-| Route | Key Characteristics | Bioavailability (F) | Advantages | Disadvantages |
-| :--- | :--- | :--- | :--- | :--- |
-| **Intravenous (IV)** (静脉注射) | Direct injection into a vein (bolus推注：单次给药，<10ml; infusion输注:连续给药，>1000ml) | **100%** | Immediate effect, precise dosing, no absorption barriers. | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
-| **Intramuscular (IM)** (肌肉注射) | Injection into muscle tissue. | <100% (Variable) | Suitable for depot/long-acting formulations, good for vaccines. | Painful, absorption rate depends on injection site blood flow, risk of tissue damage. |
-| **Oral (PO)** (口服) | Administration via the mouth. | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
-| **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek. | <100% (but > Oral for some drugs) | Rapid absorption, bypasses first-pass metabolism, easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
-| **Inhalation** (吸入) | Delivery to the lungs via aerosol. | <100% (Variable) | Rapid systemic absorption (for small molecules) or direct local action (for asthma), minimal systemic side effects for local use. | Requires patient coordination, device-dependent, **particle size** (~1-5 µm) is critical. |
-| **Transdermal** (经皮) | Application to the skin (patch). | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be potent and **lipophilic**, slow onset, potential for skin irritation. |
+| Route | Key Characteristics | Types | Bioavailability (F) | Advantages | Disadvantages |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Intravenous (IV)** (静脉注射) | Direct injection into a vein | bolus推注：单次给药，<10ml; infusion输注:连续给药，>1000ml | **100%** | Immediate effect, precise dosing, no absorption barriers | Invasive, risk of infection, requires trained personnel, not suitable for self-administration. |
+| **Intramuscular (IM)** (肌肉注射) | Injection (solution, suspension, emulsion乳剂) into muscle tissue | 上臂2ml高吸收, buttock臀部7-8ml，external thigh face外侧大腿部位 | <100% (Variable) | Suitable for depot/long-acting formulations, good for vaccines; avoid entering a blood vessel, minimizing risk of infection | Painful, absorption rate depends on injection site blood flow, risk of tissue damage. |
+| **Oral (PO)** (口服) | Administration via the mouth |  | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
+| **Inhalation** (吸入) | Delivery to the lungs via aerosol | | <100% (Variable) | Rapid systemic absorption (for small molecules) or direct local action (for asthma), minimal systemic side effects for local use. | Requires patient coordination, device-dependent, **particle size** (~1-5 µm) is critical. |
+| **Oral (PO)** (口服) | Administration via the mouth |  | <100% (Often low/variable) | Convenient, economical, non-invasive, suitable for self-administration. | Subject to GI barriers (enzymes, pH), variable absorption, **first-pass metabolism**. |
+| **Sublingual/Buccal** (舌下/颊部) | Placement under the tongue or in the cheek | | <100% (but > Oral for some drugs) | Rapid absorption, bypasses first-pass metabolism, easy to terminate. | Limited to drugs that are potent and can be absorbed through oral mucosa. |
+| **Transdermal** (经皮) | Application to the skin (patch) | | <100% (Slow & sustained) | Avoids first-pass metabolism, provides steady drug levels, good for chronic conditions. | Drug must be potent and **lipophilic**, slow onset, potential for skin irritation. |
 
 ![IV](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image4.png)
 
