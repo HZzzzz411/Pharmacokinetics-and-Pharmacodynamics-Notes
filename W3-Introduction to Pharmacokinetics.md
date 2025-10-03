@@ -8,8 +8,7 @@
     2.  **Distribution** (分布): The reversible transfer of a drug from the blood to the various tissues and fluids (interstitial 间质 and intracellular fluids 细胞内液) of the body.
     3.  **Metabolism** (Biotransformation, 生物转化): The chemical alteration of the drug, primarily in the liver, to convert it into metabolites that are typically more water-soluble for excretion.
     4.  **Excretion** (排泄): The process by which the drug and its metabolites are eliminated from the body (in urine尿液, bile胆汁, feces粪便).
-*   **LADME Extension**: The process often begins with **Liberation **(释放), which is the release of the active drug from its dosage form (e.g., a tablet disintegrating and dissolving).
-
+*   **LADME Extension**: The process often begins with **Liberation **(释放), which is the release of the active drug from its dosage form (e.g., a tablet disintegrating and dissolving).   
 ![PK & PD](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image8.png)
 
 ## II. Absorption: Entry into the Systemic Circulation
