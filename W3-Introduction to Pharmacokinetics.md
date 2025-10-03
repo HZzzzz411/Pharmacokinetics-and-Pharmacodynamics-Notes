@@ -76,53 +76,63 @@ This is a central principle governing the absorption of weak acids and bases.
 
 Distribution is the process by which a drug leaves the systemic circulation and disperses throughout the body's fluids and tissues.
 
-*   **Body Fluid Compartments**: Drugs distribute into plasma, interstitial fluid (组织间液), intracellular fluid (细胞内液), and specialized fluids like cerebrospinal fluid (CSF, 脑脊液), lymph (淋巴), and aqueous humor (房水).
-*   **Plasma Protein Binding **(血浆蛋白结合):
-    *   **Mechanism**: Most drugs reversibly bind to plasma proteins, primarily **albumin **(白蛋白) (for acidic drugs) and **alpha-1 acid glycoprotein **(α1-酸性糖蛋白) (for basic drugs). This forms a drug-protein complex.
-    *   **Pharmacological Activity**: Only the **free **(unbound, 游离) drug is pharmacologically active, as it is small enough to leave the bloodstream and reach its site of action. The bound drug acts as a reservoir.
-    *   **Significance**: High protein binding prolongs the drug's duration of action and delays its excretion. It can also lead to drug-drug interactions if one drug displaces another from its binding site, increasing the free concentration of the displaced drug and potentially causing toxicity (e.g., warfarin, phenytoin, diazepam are >90% bound).
+*   **Body Fluid Compartments**: Drugs distribute into plasma, interstitial fluid (组织间液), intracellular fluid (细胞内液), GI fluid and specialized fluids like cerebrospinal fluid (CSF, 脑脊液), lymph (淋巴), and aqueous humor (房水).
+    *   淋巴(Lymph)是流经淋巴系统(lymphatic system)的水样液体。淋巴帮助您的淋巴系统支持您的整体健康，为细胞和组织提供营养, 保护身体免受病毒、细菌和癌细胞等外来入侵者的侵害。
+*   **Plasma Protein Binding**(血浆蛋白结合):
+    *   **Mechanism**: Most drugs reversibly bind to plasma proteins like albumin (白蛋白), globulin (球蛋白), glycoprotein (糖蛋白), transferrin (转铁蛋白), and lipoprotein (脂蛋白: LDL, VLDL and HDL) to form drug-protein complexes.
+        *   **albumin**(白蛋白) for acidic drugs and alpha-1 acid glycoprotein(α1-酸性糖蛋白) and others for basic drugs. Drug-protein binding depends on the **affinity** of drug for the protein
+        *   药物和血浆蛋白结合后到drug depot (drug reservoir)被储存, no pharmacological action (无法穿过细胞膜)。随着游离药物分子经历代谢和排泄，drug-protein complexes会解离(dissociates)以提供更多的药物分子
+    *   **Pharmacological Activity**: Only the **free**(unbound, 游离) drug is pharmacologically active, as it is small enough to leave the bloodstream and reach its site of action. The bound drug acts as a reservoir.
+    *   **Significance**: High protein binding **prolongs the drug's duration** of action and **delays its excretion**. It can also lead to drug-drug interactions if one drug displaces another from its binding site, increasing the free concentration of the displaced drug and potentially causing toxicity (e.g. doxycycline多西环素, warfarin华法林, indomethacin吲哚美辛, propranolol普萘洛尔(心得安) and phenytoin苯妥英 are >90% bound).
 *   **Tissue Barriers**:
-    *   **Blood-Brain Barrier **(BBB, 血脑屏障): A highly selective barrier formed by tight junctions between capillary endothelial cells in the brain, enveloped by glial cells (胶质细胞). It is **semi-permeable **(半透性), allowing only **lipid-soluble** drugs to pass (e.g., levodopa, diazepam, barbiturates). Water-soluble and ionized drugs are generally excluded, protecting the central nervous system.
+    *   **Blood-Brain Barrier**(BBB, 血脑屏障): A highly selective barrier formed by tight junctions between **capillary endothelial cells**(毛细血管内皮细胞) in the brain, enveloped by **glial cells** (胶质细胞). It is **semi-permeable**(半透性), allowing only **lipid-soluble** drugs to pass (e.g., levodopa, diazepam, barbiturates). Water-soluble and ionized drugs are generally excluded, protecting the central nervous system.
 
 ## IV. Metabolism (Biotransformation): Chemical Modification
 
 Metabolism is the body's primary method for detoxifying and preparing drugs for elimination.
 
-*   **Purpose**: To convert lipophilic (fat-soluble) drugs into more **hydrophilic **(亲水性, water-soluble) metabolites that can be easily excreted by the kidneys or bile. This usually results in **inactivation**, but can sometimes produce **active** (e.g., prodrugs like codeine to morphine) or **toxic** metabolites (e.g., paracetamol to NAPQI).
-*   **Primary Site**: The **liver **(肝脏) is the main organ of metabolism, though the gut wall, kidneys, and lungs also contribute.
+*   **Purpose**: To convert lipophilic (fat-soluble) drugs into more **hydrophilic**(亲水性, water-soluble) metabolites that can be easily excreted by the kidneys or bile. This usually results in **inactivation**, but can sometimes produce **active** (e.g., prodrugs like codeine to morphine) or **toxic** metabolites (e.g., paracetamol to NAPQI).
+    *   **Functionalization and conjugation**: chemical reactionsthat produce more watersoluble metabolites.
+*   **Primary Site**: The **liver**(肝脏) is the main organ of metabolism, though the gastrointestinal, kidneys, plasma and lungs also contribute.
 *   **Enzyme Systems**:
-    *   **Microsomal Enzymes **(微粒体酶): Located in the smooth endoplasmic reticulum (e.g., liver, gut). The **Cytochrome P450 **(CYP450, 细胞色素P450) family is the most important group for Phase I reactions.
-    *   **Non-Microsomal Enzymes **(非微粒体酶): Located in the cytoplasm and mitochondria (e.g., esterases, amidases).
+    *   **Microsomal Enzymes**(微粒体酶): Located in the **smooth endoplasmic reticulum**（平滑内质网), e.g., kidney, liver, gut. The **Cytochrome P450**(CYP450, 细胞色素P450) family is the most important group for Phase I reactions.
+    *   **Non-Microsomal Enzymes**(非微粒体酶): Located in the **cytoplasm and mitochondria**(胞质和线粒体) (e.g., esterases, amidases).
 *   **Phases of Metabolism**:
-    *   **Phase I **(I相代谢) (Functionalization, 功能化): Introduces or exposes a polar functional group (-OH, -COOH, -NH2) on the drug molecule, making it more water-soluble. Reactions include **Oxidation **(氧化) (most common, e.g., phenytoin, diazepam), **Reduction **(还原) (e.g., chloramphenicol), and **Hydrolysis **(水解) (e.g., pethidine, procaine).
-    *   **Phase II **(II相代谢) (Conjugation, 结合): Attaches the Phase I metabolite (or sometimes the parent drug) to a large, highly polar endogenous molecule. This drastically increases water solubility for excretion. Reactions include **Glucuronidation **(葡萄糖醛酸化) (e.g., morphine, chloramphenicol), **Acetylation **(乙酰化) (e.g., sulfonamides, isoniazid), **Methylation **(甲基化) (e.g., adrenaline, histamine), and **Glutathione conjugation **(谷胱甘肽结合) (e.g., paracetamol).
-*   **First-Pass Metabolism **(首过代谢):
-    *   **Definition**: The extensive metabolism of an orally administered drug that occurs in the liver (and gut wall) **before** it reaches the systemic circulation. This is because all blood from the GI tract drains into the liver via the **portal vein **(门静脉).
+    *   **Phase I**(I相代谢, Functionalization): Introduces or exposes a **polar** functional group (-OH, -COOH, -NH2) on the drug molecule, making it more water-soluble. Reactions include **Oxidation**(氧化) (most common, e.g., phenytoin, diazepam), **Reduction**(还原) (e.g., chloramphenicol), and **Hydrolysis**(水解) (e.g., pethidine, procaine).
+    *   **Phase II**(II相代谢, Conjugation): **Attaches the Phase I metabolite** (or sometimes the parent drug) to a large, highly polar endogenous molecule. This drastically increases water solubility for excretion. Reactions include **Glucuronidation**(葡萄糖醛酸化) (e.g., morphine, chloramphenicol), **Acetylation**(乙酰化) (e.g., sulfonamides, isoniazid), **Methylation**(甲基化) (e.g., adrenaline, histamine), **glycine conjugation**(甘氨酸结合), and **Glutathione conjugation**(谷胱甘肽结合) (e.g., paracetamol).
+*   **First-Pass Metabolism**(首过代谢):
+    *   **Definition**: The extensive metabolism of an orally administered drug that occurs in the liver (and gut wall) **before** it reaches the systemic circulation. This is because all blood from the GI tract drains into the liver via the **portal vein**(门静脉).
     *   **Consequence**: It can drastically reduce the **oral bioavailability** of a drug.
     *   **Examples**:
-        *   **Partial First-Pass**: Drugs like propranolol and diazepam have reduced but still significant bioavailability, which can be compensated for by giving a higher oral dose.
-        *   **Complete First-Pass**: Drugs like **nitroglycerin**, insulin, and hydrocortisone are almost entirely metabolized on their "first pass" through the liver, resulting in negligible oral bioavailability. These drugs **must** be administered via non-oral routes (e.g., sublingual for nitroglycerin) to be effective.
+        *   **Partial First-Pass**: Drugs like propranolol and diazepam have reduced but still significant bioavailability, which can be compensated for by **giving a higher oral dose**.
+        *   **Complete First-Pass**: Drugs like **nitroglycerin**(NTG), insulin, and hydrocortisone are almost entirely metabolized on their "first pass" through the liver, resulting in negligible oral bioavailability. These drugs must be **administered via non-oral routes** (e.g., sublingual for nitroglycerin) to be effective.
 
 ## V. Excretion: Elimination from the Body
 
 Excretion is the final step in the ADME process, removing the drug and its metabolites from the body.
 
 *   **Major Routes**:
-    *   **Renal Excretion **(肾排泄) (Urine): The primary route for most drugs and their metabolites. It involves three key processes:
-        1.  **Glomerular Filtration **(肾小球滤过): The unbound, low molecular weight (<10,000 Da) drug in plasma is passively filtered from the blood into the kidney tubules. This process is not dependent on the drug's lipid solubility.
-        2.  **Tubular Reabsorption **(肾小管重吸收): Non-ionized, lipophilic drugs in the tubular filtrate can be passively reabsorbed back into the bloodstream. This process is highly dependent on **urine pH** (a key clinical application of the pH-partition hypothesis).
-            *   **Weak acids** (e.g., aspirin, barbiturates) are ionized and "trapped" in **alkaline urine**, enhancing their excretion.
-            *   **Weak bases** (e.g., pethidine, amphetamine) are ionized and "trapped" in **acidic urine**, enhancing their excretion.
-        3.  **Tubular Secretion **(肾小管分泌): An active transport process that moves drugs (including protein-bound drugs that were not filtered) from the peritubular capillaries directly into the tubular fluid. There are separate transport systems for **acidic drugs** (e.g., penicillin, salicylates) and **basic drugs** (e.g., morphine, histamine).
-    *   **Biliary Excretion **(胆汁排泄) (Feces): The liver actively secretes certain drugs and metabolites into the bile, which is stored in the gallbladder and released into the intestine.
-        *   **Enterohepatic Circulation **(肠肝循环): Some drugs excreted in bile can be reabsorbed from the intestine back into the portal blood, returning to the liver. This cycle can **prolong** the drug's action (e.g., oral contraceptives, chloramphenicol, erythromycin).
+    *   **Renal Excretion**(肾排泄) (Urine): The primary route for most drugs and their metabolites. It involves three key processes:
+        1.  **Glomerular Filtration**(肾小球滤过): The **unbound, ionized, low molecular weight** (<10,000 Da) drug in plasma is passively filtered from the blood into the kidney tubules. This process is **not dependent on the drug's lipid solubility**(所有亲水性或亲脂性的药物都能穿过肾小球膜).
+        2.  **Tubular Reabsorption**(肾小管重吸收): **Non-ionized, lipophilic** drugs in the tubular filtrate can be passively reabsorbed back into the bloodstream (也几乎完全通过被动扩散从肾小球滤液中重吸收回血流). Occur in both the ways in proximal and distal convoluted tubules(在近端和远端小管中以两种方式发生). This process is highly dependent on **urine pH** 
+            *   **Weak acids** (e.g., aspirin, barbiturates巴比妥类药物, salicylates水杨酸盐) are ionized and "trapped" in **alkaline urine**, enhancing their excretion. 弱酸在碱性尿液中快速消除
+            *   **Weak bases** (e.g., pethidine哌替啶, amphetamine苯丙胺) are ionized and "trapped" in **acidic urine**, enhancing their excretion. 弱碱在酸性尿液中快速排泄
+        3.  **Tubular Secretion**(肾小管分泌): An active transport process that moves drugs (including protein-bound drugs that were not filtered) from the **peritubular capillaries**(围小管毛细血管) directly into the tubular fluid. There are separate transport systems for **acidic drugs** (e.g., penicillin, salicylates) and **basic drugs** (e.g., morphine, histamine).
+![Renal Excretion](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image9.png)
+
+![Tubular Reabsorption](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image10.png)
+        *   **nephron**: the structural and functional unit of the kidney , each kidney has about 1–1.5 million nephrons. It is responsible for filtering blood, forming urine, and maintaining fluid and electrolyte balance
+    *   **Biliary Excretion**(胆汁排泄) (Feces): The liver actively secretes certain drugs and metabolites into the bile, which is stored in the gallbladder and released into the intestine.
+        *   **Enterohepatic Circulation**(肠肝循环): Some drugs excreted in bile can be reabsorbed from the intestine back into the portal blood, returning to the liver. This cycle can **prolong** the drug's action (e.g., oral contraceptives, chloramphenicol, erythromycin).
+            *   The cycle is: Liver -> Bile -> (Gallbladder for storage) -> Intestine -> Reabsorption -> Portal Vein -> Liver... 肝脏-> 胆汁->（胆囊储存）-> 肠道-> 重吸收-> 门静脉-> 肝脏
         *   Drugs that are not reabsorbed are eliminated in the feces.
-    *   **Pulmonary Excretion **(肺部排泄): The primary route for volatile substances like anesthetic gases and alcohol.
-*   **Minor Routes**: Drugs can also be excreted in **saliva **(唾液) (can cause a metallic taste, e.g., metronidazole), **sweat **(汗液) (e.g., lithium, rifampicin), **breast milk **(乳汁) (a concern for nursing infants), and vaginal secretions.
+        *   高分子量、水溶性代谢物和极性药物(polar drugs)会经历胆汁排泄。
+    *   **Pulmonary Excretion**(肺部排泄): The primary route for **volatile substances** like gases and volatile liquids (general anaesthetics, paraldehyde and alcohol).
+*   **Minor Routes**: Drugs can also be excreted in **saliva**(唾液) (can cause a metallic taste, e.g., metronidazole), **sweat**(汗液) (e.g., lithium, rifampicin锂、利福平等类金属元素和mercury等重金属), **breast milk**(乳汁) (pH=6.5,脂溶性强的碱性药物容易在乳液中累积), and vaginal secretions.
 
 ## VI. Bioavailability and Bioequivalence
 
-*   **Bioavailability **(F, 生物利用度): The **rate** and **extent** to which the active drug ingredient is absorbed from its dosage form and becomes available at the site of action (systemic circulation).
-    *   **Absolute Bioavailability**: The fraction of an oral (or other non-IV) dose that reaches systemic circulation compared to an IV dose (which is 100% bioavailable). `F = (AUC_oral * Dose_IV) / (AUC_IV * Dose_oral)`.
-    *   **Factors Reducing Oral F**: Incomplete dissolution/absorption, chemical degradation in the GI tract, and first-pass metabolism.
-*   **Bioequivalence **(BE, 生物等效性): Two pharmaceutical products (e.g., a brand-name and a generic) are considered bioequivalent if they are pharmaceutical equivalents (same API, strength, dosage form, route) and their rates and extents of absorption are not significantly different. This is demonstrated by showing that their **AUC **(曲线下面积) (extent) and **Cmax **(峰浓度) (rate) are statistically similar (typically within a 80-125% confidence interval). Bioequivalence is the scientific foundation for generic drug approval.
+*   **Bioavailability**(F, 生物利用度): The **rate** and **extent** to which the active drug ingredient is absorbed from its dosage form and becomes available at the site of action (systemic circulation).
+    *   **Absolute Bioavailability**: The fraction of an oral (or other non-IV) dose that reaches systemic circulation compared to an IV dose (which is 100% bioavailable). $F = \frac{AUC_oral * Dose_IV} {AUC_IV * Dose_oral}$.
+    *   **Factors Reducing Oral F**: Incomplete dissolution/absorption, chemical degradation in the GI tract, plasma protein biding (血浆蛋白结合) and first-pass metabolism.
+*   **Bioequivalence**(BE, 生物等效性): If the **difference in the bioavailability** of these two preparations (same drugs, same dose, same dosage forms) is **less than 20%**, these are known to be bioequivalent.
