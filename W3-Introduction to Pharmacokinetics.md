@@ -9,6 +9,7 @@
     3.  **Metabolism** (Biotransformation, 生物转化): The chemical alteration of the drug, primarily in the liver, to convert it into metabolites that are typically more water-soluble for excretion.
     4.  **Excretion** (排泄): The process by which the drug and its metabolites are eliminated from the body (in urine尿液, bile胆汁, feces粪便).
 *   **LADME Extension**: The process often begins with **Liberation **(释放), which is the release of the active drug from its dosage form (e.g., a tablet disintegrating and dissolving).
+
 ![PK & PD](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image8.png)
 
 ## II. Absorption: Entry into the Systemic Circulation
