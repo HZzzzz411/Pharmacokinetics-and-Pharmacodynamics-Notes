@@ -42,8 +42,9 @@ PK describes the fate of a drug within the body using the LADME framework.
     *   **Area Under the Curve (AUC)**:
         *  The total **area under** the plasma drug **concentration-time curve**. Directly proportional to the total amount of drug absorbed (**extent** of absorption). AUC越大，药物被机体吸收的越完全
     *   **Rate of Absorption**: How fast the drug reaches systemic circulation. Assessed by **Cmax** (peak plasma concentration) and **Tmax** (time to reach Cmax). Relevant for extravascular routes. Cmax he Tmax 对 IV没有意义（进入体内瞬间最大）    
-        同一种药物的不同非IV剂型，Cmax和Tmax呈**负相关**趋势：吸收越快，Tmax越短，Cmax越高
+        同一种药物的不同非IV剂型，Cmax和Tmax呈**负相关**趋势：吸收越快，Tmax越短，Cmax越高   
   ![Cmax and Tmax](https://github.com/HZzzzz411/Pharmacokinetics-and-Pharmacodynamics-Notes/raw/picture/image1.png)
+
     *   **Volume of Distribution (Vd)**:
         *   **Definition**: A theoretical volume **relating** the **total amount of drug** in the body to its **plasma concentration**. Indicates tissue distribution vs. staying in the blood. Calculated by: $$Vd (L/kg) = \frac{\text{Administered dose of drug}(D) × F} {\text{Plasma Concentration} (C)}$$. For IV, F=1, so $$Vd = Dose / C$$.
         *   **Unit**: D often mg/kg (服药量/体重), C is mg/L, so Vd is L/kg
