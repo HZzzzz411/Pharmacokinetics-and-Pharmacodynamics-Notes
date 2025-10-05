@@ -36,7 +36,7 @@ Drugs cross biological membranes through several mechanisms:
 
 ### The pH-Partition Hypothesis and the Henderson-Hasselbalch Equation
 This is a central principle governing the absorption of weak acids and bases.
-*   **Core Principle**: Biological membranes are composed of lipids. Therefore, only the **non-ionized**(unionized, 非离子化) form of a drug, which is **lipid-soluble**, can readily cross these membranes via passive diffusion. The **ionized **(离子化) form is **water-soluble** and is effectively "trapped" on one side of the membrane.
+*   **Core Principle**: Biological membranes are composed of lipids. Therefore, only the **non-ionized**(unionized, 非离子化) form of a drug, which is **lipid-soluble**, can readily cross these membranes via passive diffusion. The **ionized**(离子化) form is **water-soluble** and is effectively "trapped" on one side of the membrane.
 *   **离子化**：酸提供H+，碱接受H+，细胞膜对非离子化形式比离子化更具渗透性（在体液的生理pH=7.4的情况下脂溶性更高的药物以非离子化形式存在，水溶性更高的药物以离子化形式存在）
 *   弱酸性药物在酸性介质中，弱碱性药物在碱性(allkaline)介质中 => 保持非离子化 => readily absorbed   
     弱酸性药物在碱性介质中，弱碱性药物在酸性介质中 => 离子化 => slowly absorbed
