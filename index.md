@@ -11,3 +11,4 @@ output:
 - [W1-General Principles of Pharmacology](W1-General Principles of Pharmacology.html)
 - [W2-Introduction to Biopharmaceutics](W2-Introduction to Biopharmaceutics.html)
 - [W3-Introduction to Pharmacokinetics](W3-Introduction to Pharmacokinetics.html)
+- [W4-Introduction to Pharmacodynamics](W4-Introduction to Pharmacodynamics.html)
