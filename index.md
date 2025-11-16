@@ -12,3 +12,5 @@ output:
 - [W2-Introduction to Biopharmaceutics](W2-Introduction to Biopharmaceutics.html)
 - [W3-Introduction to Pharmacokinetics](W3-Introduction to Pharmacokinetics.html)
 - [W4-Introduction to Pharmacodynamics](W4-Introduction to Pharmacodynamics.html)
+- [W5-9-Calculation part](W5-9-Calculation part.html)
+
