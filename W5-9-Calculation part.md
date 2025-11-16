@@ -383,13 +383,11 @@ MathJax = {
   其中k₀是输注速率，V是表观分布容积
 
 #### 3.4.5 一级吸收和非线性消除
-- **一级吸收和非线性消除**: 
-   $ \frac{dC_p}{dt} = k_a C_{gi} e^{-k_a t} - \frac{V_{max}C_p}{K_m + C_p}$
+- **一级吸收和非线性消除**: $\frac{dC_p}{dt} = k_a C_{gi} e^{-k_a t} - \frac{V_{max}C_p}{K_m + C_p}$
   
   其中kₐ是一级吸收速率常数，C_{gi}是胃肠道中的浓度
 
-- **一级吸收和混合消除**: 
-   $ \frac{dC_p}{dt} = k_a C_{gi} e^{-k_a t} - \frac{V_{max}C_p}{K_m + C_p} - kC_p $
+- **一级吸收和混合消除**: $\frac{dC_p}{dt} = k_a C_{gi} e^{-k_a t} - \frac{V_{max}C_p}{K_m + C_p} - kC_p $
   
   其中k是一级消除速率常数
 
@@ -508,12 +506,12 @@ MathJax = {
 #### 5.2.2 一矩（AUMC）
 -  $AUMC_{0 \to \infty} = \int_{0}^{\infty} t \cdot C_p(t) dt$
 - 通过梯形法则计算: 
-  -  $AUMC_{t_n \to t_{n+1}} = \frac{t_{n+1}C_{n+1} + t_nC_n}{2} (t_{n+1} - t_n)$
+  -  $AUMC_{t_n \to t_{n+1}} = \frac{t_{n+1}C_{n+1} + t_nC_n}{2} (t_{n+1} - t_n)$ 
   -  $ AUMC_{0 \to \infty} = AUMC_{0 \to t} + \frac{C_t \times t}{\lambda_z} + \frac{C_t}{\lambda_z^2} $
 
 #### 5.2.3 平均滞留时间（MRT）
 - **MRT公式**: 
-   $ MRT = \frac{AUMC_{0 \to \infty}}{AUC_{0 \to \infty}} - \frac{\text{Duration infusion}}{2}$
+    $MRT = \frac{AUMC_{0 \to \infty}}{AUC_{0 \to \infty}} - \frac{\text{Duration infusion}}{2}$
   
   其中Duration是药物输注的持续时间
 
@@ -559,15 +557,15 @@ MathJax = {
      
      - 受试者1: $AUC_{0 \to \infty} = 961.605 + \frac{4.979}{0.1} = 1011.395$ mg·h/L
      - 受试者2: $AUC_{0 \to \infty} = 509.243 + \frac{0.248}{0.2} = 510.483$ mg·h/L
-  4. 计算Cl:  $Cl = \frac{1000}{1011.395} = 0.99$ L/h（受试者1）
-      $Cl = \frac{1000}{510.483} = 1.96$ L/h（受试者2）
-  5. 计算AUMC₀→∞:
-     $ AUMC_{0 \to \infty} = AUMC_{0 \to t} + \frac{C_t \times t}{\lambda_z} + \frac{C_t}{\lambda_z^2}$
+  4. 计算Cl:  $Cl = \frac{1000}{1011.395} = 0.99$ L/h（受试者1） 
+       $Cl = \frac{1000}{510.483} = 1.96$ L/h（受试者2）
+  5. 计算AUMC₀→∞: 
+      $AUMC_{0 \to \infty} = AUMC_{0 \to t} + \frac{C_t \times t}{\lambda_z} + \frac{C_t}{\lambda_z^2}$
      
      - 受试者1: $AUMC_{0 \to \infty} = 1383.135 + \frac{149.37}{0.1} + \frac{4.979}{0.1^2} = 9963.4$（受试者1）
      - 受试者2: $AUMC_{0 \to \infty} = 525.308 + \frac{7.44}{0.2} + \frac{0.248}{0.2^2} = 2526.9$（受试者2）
-  7. 计算MRT:
-      $ MRT = \frac{AUMC_{0 \to \infty}}{AUC_{0 \to \infty}} - \frac{\text{Duration infusion}}{2}$
+  7. 计算MRT: 
+       $MRT = \frac{AUMC_{0 \to \infty}}{AUC_{0 \to \infty}} - \frac{\text{Duration infusion}}{2}$
      
      - 受试者1: $MRT = \frac{9963.4}{1011.395} = 9.85$ h
      - 受试者2: $MRT = \frac{2526.9}{510.483} = 4.95$ h
@@ -593,7 +591,7 @@ MathJax = {
 - 通常遵循质量作用定律，可根据受体占有率理论描述
 
 #### 6.2.2 药物-受体相互作用模型
-- $Drug + Receptor \rightleftharpoons [Drug-receptor complex] \rightarrow Response$
+-  $Drug + Receptor \rightleftharpoons [Drug-receptor complex] \rightarrow Response$
   其中方括号[]表示摩尔浓度
 - 该模型假设: 
   1. 药物分子与受体分子以双分子结合
@@ -605,8 +603,8 @@ MathJax = {
 #### 6.2.3 受体占有率理论
 - **受体占有率**: $f_{occ} = \frac{[RC]}{R_{max}}$
 - **E与f_occ的关系**: $E = E_{max} \cdot \frac{[RC]}{R_{max}}$
-- **[RC]的计算**: 
-   $ [RC] = \frac{R_{max} C}{K_d + C}$
+- **[RC]的计算**:  
+   $[RC] = \frac{R_{max} C}{K_d + C}$
   其中Kd是平衡解离常数，$K_d = \frac{k_{off}}{k_{on}}$
 
 - **K_off和K_on的含义**: 
